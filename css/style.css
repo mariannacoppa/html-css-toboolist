@@ -58,6 +58,7 @@ h2 {
 .blue-highlight, .violet-highlight, .green-highlight, .orange-highlight, .pink-highlight, .yg-highlight {
     padding: 8px;
     border-radius: 20%;
+    color: white;
 }
 .violet-highlight {
     background-color: rgb(220, 43, 226);
