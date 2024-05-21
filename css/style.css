@@ -46,8 +46,22 @@ header, .container {
     border-radius: 50%;
     padding: 3px;
 }
-.blue-highlight {
+.cross {
+    color: red;
+    border: 3px solid red;
+    border-radius: 50%;
+    padding: 3px;
+}
+.blue-highlight, .violet-highlight, .green-highlight, .orange-highlight {
     padding: 8px;
     border-radius: 20%;
 }
-
+.violet-highlight {
+    background-color: rgb(220, 43, 226);
+}
+.green-highlight {
+    background-color: green;
+}
+.orange-highlight {
+    background-color: orange;
+}
