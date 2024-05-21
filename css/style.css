@@ -7,7 +7,21 @@
 /*start coding here*/  
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header {
+    height: 60px;
+    background-color: blue;
 }
 .title {
-    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.logo {
+    vertical-align: middle;
+    padding-left: 10px;
 }
