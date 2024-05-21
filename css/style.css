@@ -43,6 +43,9 @@ header, .container {
 h2 {
     margin: 40px 0px 3px;
 }
+li {
+    margin: 20px 2px;
+}
 .checkmark {
     color: green;
     border: 3px solid green;
