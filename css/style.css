@@ -28,9 +28,7 @@ header {
     margin: 50px 100px;
     padding: 20px 40px; 
 }
-header, .container {
-    background-color: beige;
-}
+
 .blue, .blue-highlight {
     background-color: rgb(0, 166, 255);
 }
@@ -41,8 +39,10 @@ button {
 .navigator {
     padding: 10px 20px;
 }
-.lists {
+header, .lists, .navigator {
     padding: 10px 40px;
+    margin: 3px 0;
+    background-color: beige;
 }
 h2 {
     margin: 40px 0px 3px;
