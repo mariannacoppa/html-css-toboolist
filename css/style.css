@@ -5,24 +5,26 @@
   }
 
 /*start coding here*/  
-* {
+*{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 header {
-    height: 60px;
+    height: 100px;
+
 }
 .title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    line-height: 60px;
-    vertical-align: middle;
 }
 .logo {
-    vertical-align: middle;
     padding-left: 10px;
+}
+.logo, .title {
+    line-height: 80px;
+    vertical-align: middle;
 }
 .container {
     margin: 50px 100px;
