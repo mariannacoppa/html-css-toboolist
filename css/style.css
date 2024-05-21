@@ -4,7 +4,7 @@
     font-style: normal;
   }
 
-/*start coding here*/  
+/*general and header*/  
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -26,6 +26,7 @@ header {
     line-height: 80px;
     vertical-align: middle;
 }
+/*main with to-do lists*/
 .container {
     margin: 50px 100px;
     padding: 20px 40px; 
