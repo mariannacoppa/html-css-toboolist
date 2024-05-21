@@ -34,6 +34,10 @@ header, .container {
 .blue, .blue-highlight {
     background-color: rgb(0, 166, 255);
 }
+button {
+    padding: 5px;
+    border-radius: 10%;
+}
 .navigator {
     padding: 10px 20px;
 }
@@ -43,25 +47,31 @@ header, .container {
 h2 {
     margin: 40px 0px 3px;
 }
+ul {
+    list-style: none;
+}
 li {
     margin: 20px 2px;
 }
 .checkmark {
     color: green;
-    border: 3px solid green;
+    border-color:  green; 
+}
+.cross, .checkmark {
+    font-size: 8px;
     border-radius: 50%;
-    padding: 3px;
+    padding: 4px 5px;
+    border: 2px solid;
 }
 .cross {
     color: red;
-    border: 3px solid red;
-    border-radius: 50%;
-    padding: 3px;
+    border-color:  red;
 }
 .blue-highlight, .violet-highlight, .green-highlight, .orange-highlight, .pink-highlight, .yg-highlight {
     padding: 8px;
-    border-radius: 20%;
+    border-radius: 25%;
     color: white;
+    font-size: 10px;
 }
 .violet-highlight {
     background-color: rgb(220, 43, 226);
