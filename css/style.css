@@ -13,7 +13,7 @@
 }
 header {
     height: 60px;
-    background-color: blue;
+    
 }
 .title {
     font-size: 30px;
@@ -24,4 +24,12 @@ header {
 .logo {
     vertical-align: middle;
     padding-left: 10px;
+}
+.container {
+    margin: 50px 100px;
+    padding: 20px 40px; 
+    
+}
+header, .container {
+    background-color: beige;
 }
