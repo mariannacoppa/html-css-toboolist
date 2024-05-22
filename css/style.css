@@ -1,25 +1,15 @@
-<<<<<<< HEAD
-=======
-.roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
->>>>>>> 8d5e24ffc36d89e2631849d172066d27fb3ccb75
-/*general and header*/  
+/*general*/  
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    height: 100px;
-<<<<<<< HEAD
-}
 header, body {
     font-family: Arial, Helvetica, sans-serif;
-=======
->>>>>>> 8d5e24ffc36d89e2631849d172066d27fb3ccb75
+}
+/*header*/
+header {
+    height: 80px;
 }
 .title {
     font-size: 40px;
@@ -29,20 +19,34 @@ header, body {
     padding-left: 10px;
 }
 .logo, .title {
-    line-height: 80px;
+    line-height: 60px;
     vertical-align: middle;
 }
-/*main with to-do lists*/
+/*body with to-do lists*/
 .container {
-    margin: 50px 100px;
+    margin: 50px 150px;
     padding: 20px 40px; 
 }
+body {
+    background-color: whitesmoke;
+}
+.blue {
+    color: white;
+}
+.section {
+    color: gray;
+}
 .blue, .blue-highlight {
-    background-color: rgb(0, 166, 255);
+    background-color: rgb(52, 179, 248);
 }
 button {
-    padding: 5px;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: lightcyan;
+}
+button:hover {
+    opacity: 0.5;
 }
 .navigator {
     padding: 10px 20px;
@@ -52,7 +56,7 @@ button {
 header, .lists, .navigator {
     padding: 10px 40px;
     margin: 3px 0;
-    background-color: beige;
+    background-color: white;
 }
 .lists {
     border-bottom-left-radius: 10px;
@@ -68,19 +72,19 @@ li {
     margin: 20px 2px;
 }
 .checkmark {
-    color: green;
-    border-color:  green; 
+    color: rgb(6, 193, 193);
+    border-color:  rgb(6, 193, 193); 
 }
 .cross, .checkmark {
-    font-size: 8px;
+    font-size: 10px;
     border-radius: 50%;
-    padding: 4px 5px;
+    padding: 2px 4px;
     border: 2px solid;
     margin-right: 10px;
 }
 .cross {
     color: red;
-    border-color:  red;
+    border-color: red;
 }
 .blue-highlight, .violet-highlight, .green-highlight, .orange-highlight, .pink-highlight, .yg-highlight {
     padding: 8px;
@@ -89,16 +93,16 @@ li {
     font-size: 10px;
 }
 .violet-highlight {
-    background-color: rgb(220, 43, 226);
+    background-color: rgb(141, 43, 226);
 }
 .green-highlight {
-    background-color: green;
+    background-color: rgb(6, 193, 193);
 }
 .orange-highlight {
     background-color: orange;
 }
 .pink-highlight {
-    background-color: pink;
+    background-color: rgb(224, 99, 224);
 }
 .yg-highlight {
     background-color: yellowgreen;
