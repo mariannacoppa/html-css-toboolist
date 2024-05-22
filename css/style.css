@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+>>>>>>> 8d5e24ffc36d89e2631849d172066d27fb3ccb75
 /*general and header*/  
 *{
     margin: 0;
@@ -6,9 +14,12 @@
 }
 header {
     height: 100px;
+<<<<<<< HEAD
 }
 header, body {
     font-family: Arial, Helvetica, sans-serif;
+=======
+>>>>>>> 8d5e24ffc36d89e2631849d172066d27fb3ccb75
 }
 .title {
     font-size: 40px;
@@ -26,7 +37,6 @@ header, body {
     margin: 50px 100px;
     padding: 20px 40px; 
 }
-
 .blue, .blue-highlight {
     background-color: rgb(0, 166, 255);
 }
